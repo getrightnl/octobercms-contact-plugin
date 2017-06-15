@@ -1,0 +1,43 @@
+<form class="getright-contact-form"
+      data-request="{{ __SELF__ }}::onSubmitForm"
+      data-request-update="'{{ __SELF__ }}::confirm': '.confirm-container'"
+      data-request-validate>
+    <div class="row">
+        <div class="form-group">
+            <div class="col-xs-12 col-sm-6">
+                <input type="text" name="name" class="form-control" placeholder="Naam">
+                <div data-validate-for="name"></div>
+            </div>
+            <div class="col-xs-12 col-sm-6">
+                <input type="email" name="email" class="form-control" placeholder="E-mail">
+                <div data-validate-for="email"></div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="form-group">
+            <div class="col-xs-12">
+                <input type="tel" name="phone" class="form-control" placeholder="Telefoonnummer">
+                <div data-validate-for="phone"></div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="form-group">
+            <div class="col-xs-12">
+                <textarea class="form-control" name="body" placeholder="Bericht"></textarea>
+                <div data-validate-for="body"></div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="form-group">
+            <div class="col-xs-12">
+                <input type="submit" class="btn btn-default red" value="Verzenden">
+            </div>
+        </div>
+    </div>
+    <div class="confirm-container">
+
+    </div>
+</form>

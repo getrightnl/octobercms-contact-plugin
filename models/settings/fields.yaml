@@ -1,0 +1,5 @@
+fields:
+    confirmation_text:
+        label: getright.contact::lang.labels.confirmation_text
+        type: text
+
