@@ -16,13 +16,6 @@ use Illuminate\Support\Facades\Mail;
 class ContactForm extends ComponentBase
 {
     /**
-     * App configs.
-     *
-     * @var $config
-     */
-    private $config;
-
-    /**
      * @var $email
      */
     private $email;
